@@ -1,0 +1,182 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin-top: 0;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+h1:last-child { margin-bottom: 0; }
+
+h2 {
+  font-size: 32px;
+}
+
+p,
+ul,
+ol {
+  font-size: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.wrap {
+  max-width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* _____________________________________________ */
+
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+header form {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+header form input {
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border: 0;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+header form input:focus {
+  outline: none;
+}
+
+header form .btn {
+  background-color: #cccccc;
+  width: 100%;
+}
+
+/* _____________________________________________ */
+
+.posts-container  {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.posts-container h3 a { color: #caca0b; }
+
+.posts-container:not(:last-child) { margin-bottom: 60px; }
+
+.posts-container article:not(:last-child) {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.posts-container .details {
+  color: #777;
+  font-size: 14px;
+}
+
+/* _____________________________________________ */
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}
+
+footer .wrap > *:last-child { margin-bottom: 0; }
+
+footer .social-icons {
+  margin-bottom: 30px;
+}
+
+footer .social-icons i {
+  font-size: 20px;
+}
+
+footer .social-icons a {
+  color: #caca0b;
+}
+
+footer .social-icons a:not(:last-child) {
+  margin-right: 15px;
+}
+
+/* _____________________________________________ */
+/* detail page styles */
+
+.intro-text {
+  font-size: 30px;
+}
+
+.details-cont {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.details-cont:not(:last-child) { margin-bottom: 30px;   }
+
+.details-cont button {
+  border: 0;
+  padding: 0;
+  background-color: transparent;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color .3s ease-out;
+}
+
+.details-cont button:hover {
+  color: #caca0b;
+}
+
+.details-cont button:not(:last-child) {
+  margin-right: 30px;
+}
